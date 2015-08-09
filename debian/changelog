@@ -1,6 +1,7 @@
 mopidy-youtube (2.0.0-3) UNRELEASED; urgency=medium
 
-  * Add python-pafy as Build-Depends to silence pydist warning.
+  * Add python-pafy as Build-Depends to silence pydist warning. (Closes:
+    #795007)
 
  -- Stein Magnus Jodal <stein.magnus@jodal.no>  Thu, 06 Aug 2015 21:51:56 +0200
 
