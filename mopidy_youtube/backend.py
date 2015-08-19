@@ -53,7 +53,7 @@ def resolve_url(url, stream=False):
                 safe_url(video.title), video.videoid
             )
         else:
-            uri = video.getbestaudio()
+            uri = video.getbestaudio(preftype='ogg')
             if not uri:  # get video url
                 uri = video.getbest()
             logger.debug('%s - %s %s %s' % (
