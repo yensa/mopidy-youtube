@@ -1,5 +1,5 @@
 sudo: required
-dist: trusty
+dist: xenial
 
 language: python
 
@@ -12,7 +12,7 @@ env:
 
 before_install:
   - "sudo apt-get update -qq"
-  - "sudo apt-get install -y gir1.2-gst-plugins-base-1.0 gir1.2-gstreamer-1.0 python-gst-1.0"
+  - "sudo apt-get install -y gir1.2-gst-plugins-base-1.0 gir1.2-gstreamer-1.0 python-gst-1.0 youtube-dl"
 
 install:
   - "pip install tox"
